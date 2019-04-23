@@ -12,6 +12,19 @@ We are based on the intuition that the score we ultimately need is positively co
 
 the frame of our method is :
 
-![Alt text](https://github.com/iceli1007/SPIE2019/tree/master/image/main_framework.png)
+![image](https://github.com/iceli1007/SPIE2019/tree/master/image/main_framework.png)
+
+
+Structure description：
+
+Creat_cell_image.py：The images and labels in the cells folder are cut into 256*256 size by sliding window and saved in the cell_image folder.
+
+Unet_creat_mask_train.py:train a segmentation nework
+
+Creat_mask.py:The image added by the train_images file is used as input, and the corresponding mask is output to the train_masks through the model output.
+
+model_train.py:Designed a feature extraction network using mask information as attention and training
+
+
 
 
