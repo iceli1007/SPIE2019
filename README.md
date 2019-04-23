@@ -8,3 +8,8 @@ We are based on the intuition that the score we ultimately need is positively co
 (2) We use the trained network to get the rough segmentation result of the original data set.
 
 (3) We combine the original data with the features provided by its corresponding rough segmentation results to train the final regression network. We use the attention mechanism to provide auxiliary information from the segmentation results, so that the purpose of the network is clearer.
+
+
+the framework of our method is :
+
+![image]https://github.com/iceli1007/SPIE2019/image/Figure_2 the main framework.png)
