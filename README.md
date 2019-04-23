@@ -12,4 +12,6 @@ We are based on the intuition that the score we ultimately need is positively co
 
 the frame of our method is :
 
-![image](https://github.com/iceli1007/SPIE2019/tree/master/image/main_framework.png)
+![Alt text](https://github.com/iceli1007/SPIE2019/tree/master/image/main_framework.png)
+
+
